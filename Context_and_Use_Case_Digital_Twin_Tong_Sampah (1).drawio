@@ -1,0 +1,213 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="2">
+  <diagram name="Context Diagram" id="context-diagram">
+    <mxGraphModel dx="1084" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=22;fontStyle=1;" value="Context Diagram - Sistem Digital Twin Monitoring Tong Sampah" vertex="1">
+          <mxGeometry height="40" width="650" x="250" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="petugas" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fillColor=#fff2cc;fontStyle=1;" value="Petugas Kebersihan" vertex="1">
+          <mxGeometry height="70" width="190" x="45" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sensor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fillColor=#d5e8d4;fontStyle=1;" value="Sensor Tong Sampah" vertex="1">
+          <mxGeometry height="70" width="190" x="45" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="system" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=17;fontStyle=1;" value="Sistem Digital Twin Monitoring Tong Sampah" vertex="1">
+          <mxGeometry height="120" width="300" x="430" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=16;fillColor=#e1d5e7;fontStyle=1;" value="Admin" vertex="1">
+          <mxGeometry height="70" width="180" x="900" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" source="petugas" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="system" value="Permintaan informasi&#xa;(status, persentase, notifikasi)">
+          <mxGeometry relative="1" x="-0.087" y="25" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="440" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="system" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" value="Informasi monitoring&#xa;(status dan persentase)">
+          <mxGeometry relative="1" x="0.0071" y="-22" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="430" y="292.3" />
+              <mxPoint x="190" y="292.3" />
+            </Array>
+            <mxPoint x="430" y="170.02000000000004" as="sourcePoint" />
+            <mxPoint x="190" y="242.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" edge="1" parent="1" source="sensor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" value="Data jarak permukaan sampah">
+          <mxGeometry relative="1" x="0.1795" y="-20" as="geometry">
+            <mxPoint x="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="190" y="350" />
+              <mxPoint x="190" y="300" />
+            </Array>
+            <mxPoint x="190" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="Konfirmasi data">
+          <mxGeometry relative="1" x="0.0571" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="380" />
+              <mxPoint x="210" y="380" />
+            </Array>
+            <mxPoint x="500" y="345" as="sourcePoint" />
+            <mxPoint x="210" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;entryX=1;entryY=1;entryDx=0;entryDy=0;" value="Pengaturan ambang&amp;nbsp;&lt;div&gt;batas kelola data tong&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0526" y="-30" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="900" y="270" />
+            </Array>
+            <mxPoint x="900" y="250" as="sourcePoint" />
+            <mxPoint x="730" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;" value="Informasi status dan data tong">
+          <mxGeometry relative="1" x="-0.0286" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="810" y="310" />
+              <mxPoint x="810" y="315" />
+            </Array>
+            <mxPoint x="730" y="310" as="sourcePoint" />
+            <mxPoint x="900" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Use Case Diagram" id="use-case-diagram">
+    <mxGraphModel dx="1377" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uctitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=21;fontStyle=1;" value="Use Case Diagram - Sistem Digital Twin Monitoring Tong Sampah" vertex="1">
+          <mxGeometry height="35" width="700" x="230" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" parent="1" style="swimlane;html=1;startSize=35;horizontal=1;rounded=0;fillColor=#f5faff;strokeColor=#6c8ebf;fontSize=16;fontStyle=1;" value="Sistem Digital Twin Monitoring Tong Sampah" vertex="1">
+          <mxGeometry height="620" width="620" x="280" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sensorData" parent="boundary" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Mengirim Data Sensor" vertex="1">
+          <mxGeometry height="48" width="210" x="230" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="petugas" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" value="Petugas Kebersihan" vertex="1">
+          <mxGeometry height="80" width="50" x="55" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sensor" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" value="Sensor Tong Sampah" vertex="1">
+          <mxGeometry height="80" width="50" x="55" y="535" as="geometry" />
+        </mxCell>
+        <mxCell id="admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=13;" value="Admin" vertex="1">
+          <mxGeometry height="80" width="50" x="1020" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="login" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Login" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboard" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Melihat Dashboard" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="monitor" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Memantau Kepenuhan Tong" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="status" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Melihat Status Tong" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="twin" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Melihat Digital Twin" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="notif" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Melihat Notifikasi" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="history" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Melihat Riwayat Monitoring" vertex="1">
+          <mxGeometry height="48" width="210" x="330" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="threshold" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Mengatur Ambang Batas" vertex="1">
+          <mxGeometry height="48" width="210" x="650" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="manage" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;" value="Mengelola Data Tong" vertex="1">
+          <mxGeometry height="48" width="210" x="650" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-2" edge="1" parent="1" source="monitor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="monitor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="login" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="300" as="sourcePoint" />
+            <mxPoint x="190" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-5" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="dashboard" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="299.5" as="sourcePoint" />
+            <mxPoint x="330" y="158.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="monitor" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="299.5" as="sourcePoint" />
+            <mxPoint x="330" y="158.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="status" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="299.5" as="sourcePoint" />
+            <mxPoint x="330" y="158.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="twin" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="299.5" as="sourcePoint" />
+            <mxPoint x="330" y="158.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="notif" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="299.5" as="sourcePoint" />
+            <mxPoint x="330" y="158.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="history" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.69" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="579" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="sensorData" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="130" y="579.5" as="sourcePoint" />
+            <mxPoint x="330" y="438.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="threshold" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1000" y="350" as="sourcePoint" />
+            <mxPoint x="1180" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-g6Fj3pNk2NCeqVjcLr6-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="manage" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.6886" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1000" y="352" as="sourcePoint" />
+            <mxPoint x="860" y="246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
